@@ -176,7 +176,7 @@
                 </Grid.ColumnDefinitions>
 
                 <ToggleButton Grid.Row="0" Grid.Column="0" Content="Mute" Margin="5, 2, 5, 2" Padding="5" Command="{Binding Path=MuteSession}" />
-                <ToggleButton Grid.Row="0" Grid.Column="1" Content="Unute" Margin="5, 2, 5, 2" Padding="5" Command="{Binding Path=UnmuteSession}" />
+                <ToggleButton Grid.Row="0" Grid.Column="1" Content="Unmute" Margin="5, 2, 5, 2" Padding="5" Command="{Binding Path=UnmuteSession}" />
             </Grid>
             
 

@@ -226,14 +226,14 @@ namespace MuteApplication.ViewModel
             Debug.WriteLine("AutoRefreshCommand, AutoRefresh: " + AutoRefresh);
             if (AutoRefresh)
             {
-                StatusBarString = "Starting auto refresh.";
+                StatusBarString = "Enabled auto refresh.";
                 _cTSource = new CancellationTokenSource();
                 PeriodicUpdate(UpdateActiveSessions, TimeSpan.FromSeconds(RefreshInterval), _cTSource.Token);
             }
             else
             {
                 _cTSource.Cancel();
-                StatusBarString = "Ended auto refresh.";
+                StatusBarString = "Disabled auto refresh.";
             }
         }
 
