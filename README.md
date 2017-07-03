@@ -1,6 +1,6 @@
 # MuteApplication
 
-Easily mute different applications. ctrl +  shift + m toggles mute for selected application.
+Easily mute different applications. ctrl +  shift + m toggles mute for selected application. Can be used when application is not in focus.
 
 ## Current 
 
